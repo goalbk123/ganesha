@@ -11,9 +11,9 @@ public class Login {
 	@Test
 	public void openapplication()
 	{
-		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
-		driver.get("https://www.amazon.com/");
+//		WebDriverManager.chromedriver().setup();
+//		driver=new ChromeDriver();
+//		driver.get("https://www.amazon.com/");
 		System.out.println(driver.getTitle());
 		
 		driver.close();
